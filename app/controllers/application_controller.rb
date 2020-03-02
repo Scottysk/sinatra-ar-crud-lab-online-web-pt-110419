@@ -37,6 +37,6 @@ class ApplicationController < Sinatra::Base
   end
   
   patch '/articles/:id' do
-    @article = Article.
+    @article = Article.find
   end
 end
